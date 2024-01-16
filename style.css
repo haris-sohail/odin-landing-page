@@ -1,9 +1,52 @@
-body{
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+body {
     margin: 0;
     padding: 0;
 }
 
-.hero{
+.hero {
     height: 100vh;
     background-color: #c2e3f0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.header-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.links .insta-logo img, .links .facebook-logo img{
+    width: 40px;
+    height: 40px;
 }
