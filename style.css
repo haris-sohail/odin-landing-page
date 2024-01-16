@@ -1,4 +1,4 @@
-*{
+* {
     font-family: "Roboto", sans-serif;
 }
 
@@ -11,7 +11,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #c2e3f0;
+    background-color: #faf6ed;
 }
 
 ul {
@@ -42,17 +42,29 @@ a {
     gap: 20px;
 }
 
-.logo img{
+.logo img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
 }
 
-.links .insta-logo img, .links .facebook-logo img{
+.links .insta-logo img,
+.links .facebook-logo img {
     width: 40px;
     height: 40px;
 }
 
-.main-content{
+.hero .main-content {
     flex: auto;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-content img {
+    width: 50%;
+    border-radius: 10px;
+    border: 10px solid black;
 }
