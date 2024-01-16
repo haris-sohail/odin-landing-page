@@ -9,6 +9,8 @@ body {
 
 .hero {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: #c2e3f0;
 }
 
@@ -49,4 +51,8 @@ a {
 .links .insta-logo img, .links .facebook-logo img{
     width: 40px;
     height: 40px;
+}
+
+.main-content{
+    flex: auto;
 }
