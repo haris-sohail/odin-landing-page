@@ -97,9 +97,24 @@ a {
     color: black;
 }
 
-.text a:hover{
+.text a:hover {
     background-color: black;
     border-color: black;
     color: white;
     cursor: pointer;
+}
+
+.crew-row {
+    background-color: white;
+    height: 100vh;
+}
+
+.crew-row .heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.crew-row .heading h2{
+    font-size: 48px;
 }
