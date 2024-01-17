@@ -166,3 +166,7 @@ a {
 .crew-row .note h2{
     color: black;
 }
+
+.hero .main-content img{
+    filter: drop-shadow(5px 5px 15px #000000);
+}
