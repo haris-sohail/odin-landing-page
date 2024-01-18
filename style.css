@@ -179,15 +179,14 @@ a {
 }
 
 .testimonial .text .review {
-    display: flex;
-    width: fit-content;
-    justify-content: center;
     font-size: 36px;
     font-weight: lighter;
+    text-align: center;
 }
 
 .testimonial .text .writer {
     font-size: 24px;
     font-weight: bold;
     margin-top: 16px;
+    text-align: center;
 }
